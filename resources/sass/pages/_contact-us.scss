@@ -1,0 +1,50 @@
+.contact-us-page {
+    background-color: white;
+    min-height: 100vh;
+
+    > div[class^="col-"] {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .contact-form {
+        padding: 2rem;
+        height: 100%;
+    }
+
+    .contact-info {
+        padding: 2rem;
+        color: white;
+        background-color: #5e52e7;
+        height: 100%;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-info-row {
+            margin: 1rem 0;
+            display: flex;
+            align-items: center;
+
+            i {
+                margin-right: 1rem;
+            }
+        }
+
+        .social-icons {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+
+            a {
+                margin-right: 2rem;
+            }
+
+            i {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
